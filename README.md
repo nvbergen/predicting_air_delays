@@ -15,5 +15,6 @@
 ## Project Milestones
 1. Initial data acquisition
     1. Application to APIs
-        1.['Amadeus'](https://developers.amadeus.com/self-service/category/air)
-    2. CSV download
+    - ['Amadeus'](https://developers.amadeus.com/self-service/category/air)
+    - ['Bereau of Transportaion Statistics'](https://www.transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=FGJ)
+
