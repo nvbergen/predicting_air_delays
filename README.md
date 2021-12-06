@@ -11,7 +11,9 @@
 2. EDA
 3. Data Modeling Trainning and Testing
 4. Data predictions/app output
-
+---
 ## Project Milestones
 1. Initial data acquisition
-    A. 
+    1. Application to APIs
+        1.['Amadeus'](https://developers.amadeus.com/self-service/category/air)
+    2. CSV download
