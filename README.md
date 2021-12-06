@@ -24,5 +24,6 @@
     - What specific metrics will be used at each level of modeling?
     - Should this be a time series analysis or a feature?
     - Should WX be a feature in the analysis?
+    - Consider *scaling* to dollar per mile.
 5. Level 1 classification; Delay probability. 
 6. Level 2 regression; determining how long a delay will be and applying a cost per minute figure to data
