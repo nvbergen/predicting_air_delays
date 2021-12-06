@@ -12,3 +12,6 @@
 3. Data Modeling Trainning and Testing
 4. Data predictions/app output
 
+## Project Milestones
+1. Initial data acquisition
+    A. 
