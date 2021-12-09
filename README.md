@@ -29,11 +29,11 @@
 6. Level 2 regression; determining how long a delay will be and applying a cost per minute figure to data
 ---
 ## Data
----
+
 This section has two parts, the description and the dictionary. 
 - The _Description_ talks about the dataset in general terms while the dictionary provides a macro-level understanding of the data types and organization of the data in our dataframe. 
 ### Data Description
-
+Having obtained 65 complete months of daily flights in the North American air system, I compiled the baseline table by joining all 65 data tables together for more that _blank_ million rows of labeled data.
 
 ### Data Dictionary
 Below is a table of each column in the dataset. 
@@ -47,7 +47,7 @@ Below is a table of each column in the dataset.
 | 6  | _OP_UNIQUE_CARRIER_ | Reporting Airline by Two-Letter Designator, EG AA = American Airlines.   | --  | _string_   |
 | 7  | _Tail_Number_  | The identification number of the aircraft used for the flight. N831AA | --  | _string_  |
 | 8  | _OP_CARRIER_FL_NUM_ |  The flight number of the reporting airline. EG 5574  | --  | _string_  |
-| 9  | _Origin_   | The IATA three-letter airport code identifying the station of origin for the flight | --  | _string_  |
+| 9  | _Origin_   | The IATA three-letter airport code identifying the station of origin for the flight. EG _SYD_ | --  | _string_  |
 | 10  | _ORIGIN_CITY_NAME_ | City, ST. formatted city name  | --  | _string_  |
 | 11  | OriginStateName  |   |   |   |
 | 12  | DEST  |   |   |   |
