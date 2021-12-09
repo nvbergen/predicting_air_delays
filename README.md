@@ -38,17 +38,17 @@ This section has two parts, the description and the dictionary.
 ### Data Dictionary
 Below is a table of each column in the dataset. 
 | No.  | **Column** | **Description**  | **Units**  | **Type**  |
-|:---:|:---|:---|:---|:---|
-| 1  | Year   | The Year of the flight   | YYYY  | Discrete  |
-| 2 |  Month | The number representation of the month  | MM  |  Discrete |
-| 3  | Day of Month  | The day of the month  | DD  | Discrete  |
-| 4  | Day of Week  | A number representation for the day of the week Monday = 1, Sunday = 7 | N  | Discrete  |
-| 5  | Flight Date (yyyymmdd)  |   |   |   |
-| 6  | Reporting Airline |   |   |   |
-| 7  | Tail_Number  |   |   |   |
-| 8  | Flight_Number_Reporting_Airline   |   |   |   |
-| 9  | Origin   |   |   |   |
-| 10  | OriginCityName   |   |   |   |
+|:---:|:---|:---|:---:|:---:|
+| 1  | _YEAR_   | The Year of the flight   | YYYY  | Discrete  |
+| 2 |  _MONTH_ | The number representation of the month  | MM  |  Discrete |
+| 3  | _DAY_OF_MONTH_| The day of the month  | DD  | Discrete  |
+| 4  | _DAY_OF_WEEK_  | A number representation for the day of the week Monday = 1, Sunday = 7, Unknown = 9 | N  | Discrete  |
+| 5  | _FL_DATE_| Full recorded Date of the flight  | yyyy-mm-dd  | Discrete  |
+| 6  | _OP_UNIQUE_CARRIER_ | Reporting Airline by Two-Letter Designator, EG AA = American Airlines.   | --  | _string_   |
+| 7  | _Tail_Number_  | The identification number of the aircraft used for the flight. N831AA | --  | _string_  |
+| 8  | _OP_CARRIER_FL_NUM_ |  The flight number of the reporting airline. EG 5574  | --  | _string_  |
+| 9  | _Origin_   | The IATA three-letter airport code identifying the station of origin for the flight | --  | _string_  |
+| 10  | _ORIGIN_CITY_NAME_ | City, ST formatted city name  | --  | _string_  |
 | 11  | OriginStateName  |   |   |   |
 | 12  | DEST  |   |   |   |
 | 13  | DestCityName  |   |   |   |
