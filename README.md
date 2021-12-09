@@ -37,12 +37,12 @@ This section has two parts, the description and the dictionary.
 
 ### Data Dictionary
 Below is a table of each column in the dataset. 
-| No.  | **Column** | **Description**  |   |   |
-|---|---|---|---|---|
-| 1  | Year   |   |   |   |
-| 2 |  Month |   |   |   |
-| 3  | Day of Month  |   |   |   |
-| 4  | Day of Week  |   |   |   |
+| No.  | **Column** | **Description**  | **Units**  | **Type**  |
+|:---:|:---|:---|:---|:---|
+| 1  | Year   | The Year of the flight   | YYYY  | Discrete  |
+| 2 |  Month | The number representation of the month  | MM  |  Discrete |
+| 3  | Day of Month  | The day of the month  | DD  | Discrete  |
+| 4  | Day of Week  | A number representation for the day of the week Monday = 1, Sunday = 7 | N  | Discrete  |
 | 5  | Flight Date (yyyymmdd)  |   |   |   |
 | 6  | Reporting Airline |   |   |   |
 | 7  | Tail_Number  |   |   |   |
