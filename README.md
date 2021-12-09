@@ -48,7 +48,7 @@ Below is a table of each column in the dataset.
 | 7  | _Tail_Number_  | The identification number of the aircraft used for the flight. N831AA | --  | _string_  |
 | 8  | _OP_CARRIER_FL_NUM_ |  The flight number of the reporting airline. EG 5574  | --  | _string_  |
 | 9  | _Origin_   | The IATA three-letter airport code identifying the station of origin for the flight | --  | _string_  |
-| 10  | _ORIGIN_CITY_NAME_ | City, ST formatted city name  | --  | _string_  |
+| 10  | _ORIGIN_CITY_NAME_ | City, ST. formatted city name  | --  | _string_  |
 | 11  | OriginStateName  |   |   |   |
 | 12  | DEST  |   |   |   |
 | 13  | DestCityName  |   |   |   |
