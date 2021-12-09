@@ -33,7 +33,7 @@
 This section has two parts, the description and the dictionary. 
 - The _Description_ talks about the dataset in general terms while the dictionary provides a macro-level understanding of the data types and organization of the data in our dataframe. 
 ### Data Description
-Having obtained 65 complete months of daily flights in the North American air system, I compiled the baseline table by joining all 65 data tables together for more that _blank_ million rows of labeled data.
+Having obtained 65 complete months of daily flights in the North American air system, I compiled the baseline table by joining all 65 data tables together for more that _blank!!!!!!!!!!!!!!!!!_ million rows of labeled data.
 
 ### Data Dictionary
 Below is a table of each column in the dataset. 
