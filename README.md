@@ -27,3 +27,19 @@
     - Consider *scaling* to dollar per mile.
 5. Level 1 classification; Delay probability. 
 6. Level 2 regression; determining how long a delay will be and applying a cost per minute figure to data
+---
+## Data Dictionary
+Below is a table of each column in the dataset. 
+| No.  | **Column** | **Description**  |   |   |
+|---|---|---|---|---|
+| 1  | year   |   |   |   |
+| 2 |  Month |   |   |   |
+| 3  | Day of Month  |   |   |   |
+| 4  | Day of Week  |   |   |   |
+| 5  | Flight Date (yyyymmdd)  |   |   |   |
+| 6  |   |   |   |   |
+| 7  |   |   |   |   |
+| 8  |   |   |   |   |
+| 9  |   |   |   |   |
+| 10  |   |   |   |   |
+| 11  |   |   |   |   |
