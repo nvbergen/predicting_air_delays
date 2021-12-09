@@ -28,18 +28,48 @@
 5. Level 1 classification; Delay probability. 
 6. Level 2 regression; determining how long a delay will be and applying a cost per minute figure to data
 ---
-## Data Dictionary
+## Data
+---
+This section has two parts, the description and the dictionary. 
+- The _Description_ talks about the dataset in general terms while the dictionary provides a macro-level understanding of the data types and organization of the data in our dataframe. 
+### Data Description
+
+
+### Data Dictionary
 Below is a table of each column in the dataset. 
 | No.  | **Column** | **Description**  |   |   |
 |---|---|---|---|---|
-| 1  | year   |   |   |   |
+| 1  | Year   |   |   |   |
 | 2 |  Month |   |   |   |
 | 3  | Day of Month  |   |   |   |
 | 4  | Day of Week  |   |   |   |
 | 5  | Flight Date (yyyymmdd)  |   |   |   |
-| 6  |   |   |   |   |
-| 7  |   |   |   |   |
-| 8  |   |   |   |   |
-| 9  |   |   |   |   |
-| 10  |   |   |   |   |
-| 11  |   |   |   |   |
+| 6  | Reporting Airline |   |   |   |
+| 7  | Tail_Number  |   |   |   |
+| 8  | Flight_Number_Reporting_Airline   |   |   |   |
+| 9  | Origin   |   |   |   |
+| 10  | OriginCityName   |   |   |   |
+| 11  | OriginStateName  |   |   |   |
+| 12  | DEST  |   |   |   |
+| 13  | DestCityName  |   |   |   |
+| 14  | DestStateName  |   |   |   |
+| 15  | CRSDepTime  |   |   |   |
+| 16  | DepTime  |   |   |   |
+| 17  | DepDelay  |   |   |   |
+| 18  | DepDelayMinutes  |   |   |   |
+| 19  | CRSArrTime  |   |   |   |
+| 20  | ArrTime  |   |   |   |
+| 21  | ArrDelay  |   |   |   |
+| 22  | ArrDelayMinutes  |   |   |   |
+| 23  | Cancelled  |   |   |   |
+| 24  | CancellationCode  |   |   |   |
+| 25  | Diverted  |   |   |   |
+| 26  | CRSElapsedTime  |   |   |   |
+| 27  | Flights  |   |   |   |
+| 28  | Distance  |   |   |   |
+| 29  | CarrierDelay  |   |   |   |
+| 30  | WeatherDelay  |   |   |   |
+| 31  | NASDelay  |   |   |   |
+| 32  | SecurityDelay  |   |   |   |
+| 33  | LateAircraftDelay  |   |   |   |
+| 34  |   |   |   |   |
