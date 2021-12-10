@@ -63,7 +63,7 @@ Below is a table of each column in the dataset.
 | 17  | _ARR_TIME_  | _Actual_ arrival time recorded at airport and stored as a float. 7:13 pm is 1913.0  | _float_  | categorical  |
 | 18  | _ARR_DELAY_  | Total time in minutes measured as difference between CRS_ARR_TIME and ARR_TIME  | _integer_  | discrete  |
 | 19  | _CANCELLED_  |  Binary designator if the flight was canceled | _binary int_  | categorical  |
-| 20  | _CANCELLATION_CODE_  | Description that with Cancellation _reason_ represented by letter code A - G  | _string_  |   |
+| 20  | _CANCELLATION_CODE_  | Description that with Cancellation _reason_ represented by letter code A - G  | _string_  | categorical  |
 | 21  | ArrDelay  |   |   |   |
 | 22  | ArrDelayMinutes  |   |   |   |
 | 23  | Cancelled  |   |   |   |
