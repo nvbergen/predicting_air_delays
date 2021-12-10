@@ -44,26 +44,26 @@ Having obtained 65 complete months of daily flights in the North American air sy
 Below is a table of each column in the dataset. 
 | No.  | **Column** | **Description**  | **Units**  | **Type**  |
 |:---:|:---|:---|:---:|:---:|
-| 1  | _YEAR_   | The Year of the flight YYYY format  | _integer_  | categorical |
-| 2 |  _MONTH_ | The number representation of the month MM | _integer_  | categorical |
-| 3  | _DAY_OF_MONTH_| The day of the month dd format |  _integer_ | categorical  |
-| 4  | _DAY_OF_WEEK_  | A number representation for the day of the week Monday = 1, Sunday = 7, Unknown = 9 | _integer_  | categorical  |
-| 5  | _FL_DATE_| Full recorded Date of the flight yyyy-mm-dd | _string_ | categorical  |
-| 6  | _OP_UNIQUE_CARRIER_ | Reporting Airline by Two-Letter Designator, EG AA = American Airlines.   | _string_ | categorical |
-| 7  | _Tail_Number_  | The identification number of the aircraft used for the flight. N831AA | _string_ | categorical |
-| 8  | _OP_CARRIER_FL_NUM_ |  The flight number of the reporting airline. EG 5574  | _string_ | categorical |
-| 9  | _Origin_   | The IATA three-letter airport code identifying the station of origin for the flight. EG _SYD_ | _string_ | categorical |
-| 10  | _ORIGIN_CITY_NAME_ | City, ST. formatted city name of the _origin_ airport | _string_ | categorical |
-| 11  | _DEST_  | The IATA three-letter airport code identifying the station of origin for the flight. EG _SFO_ | _string_ | categorical |
-| 12  | _DEST_CITY_NAME_  | City, ST. formatted city name of the _destination_ airport  | _string_ | categorical |
-| 13  | _CRS_DEP_TIME_  | **Scheduled departure time** stored as an integer, 11:52 pm is 2352  | _integer_  | categorical  |
-| 14  | _DEP_TIME_  | _Actual_ departure time recorded at airport and stored as a float. 7:13 pm is 1913.0  | _float_  | categorical  |
-| 15  | _DEP_DELAY_  | Total time in minutes measured as difference between CRS_DEP_TIME and DEP_TIME  | _integer_  | discrete  |
-| 16  | _CRS_ARR_TIME_  | **Scheduled arrival time** stored as an integer, 07:52 pm is 1952  | _integer_  | categorical  |  
-| 17  | _ARR_TIME_  | _Actual_ arrival time recorded at airport and stored as a float. 7:13 pm is 1913.0  | _float_  | categorical  |
-| 18  | _ARR_DELAY_  | Total time in minutes measured as difference between CRS_ARR_TIME and ARR_TIME  | _integer_  | discrete  |
-| 19  | _CANCELLED_  |  Binary designator if the flight was canceled | _binary int_  | categorical  |
-| 20  | _CANCELLATION_CODE_  | Description that with Cancellation _reason_ represented by letter code A - G  | _string_  |   |
+| 1  | _YEAR_   | The Year of the flight   | YYYY  | Discrete  |
+| 2 |  _MONTH_ | The number representation of the month  | MM  |  Discrete |
+| 3  | _DAY_OF_MONTH_| The day of the month  | DD  | Discrete  |
+| 4  | _DAY_OF_WEEK_  | A number representation for the day of the week Monday = 1, Sunday = 7, Unknown = 9 | N  | Discrete  |
+| 5  | _FL_DATE_| Full recorded Date of the flight  | yyyy-mm-dd  | Discrete  |
+| 6  | _OP_UNIQUE_CARRIER_ | Reporting Airline by Two-Letter Designator, EG AA = American Airlines.   | --  | _string_   |
+| 7  | _Tail_Number_  | The identification number of the aircraft used for the flight. N831AA | --  | _string_  |
+| 8  | _OP_CARRIER_FL_NUM_ |  The flight number of the reporting airline. EG 5574  | --  | _string_  |
+| 9  | _Origin_   | The IATA three-letter airport code identifying the station of origin for the flight. EG _SYD_ | --  | _string_  |
+| 10  | _ORIGIN_CITY_NAME_ | City, ST. formatted city name  | --  | _string_  |
+| 11  | OriginStateName  |   |   |   |
+| 12  | DEST  |   |   |   |
+| 13  | DestCityName  |   |   |   |
+| 14  | DestStateName  |   |   |   |
+| 15  | CRSDepTime  |   |   |   |
+| 16  | DepTime  |   |   |   |
+| 17  | DepDelay  |   |   |   |
+| 18  | DepDelayMinutes  |   |   |   |
+| 19  | CRSArrTime  |   |   |   |
+| 20  | ArrTime  |   |   |   |
 | 21  | ArrDelay  |   |   |   |
 | 22  | ArrDelayMinutes  |   |   |   |
 | 23  | Cancelled  |   |   |   |
