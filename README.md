@@ -8,30 +8,24 @@
 
 ## Folder structure:
 ### Code
-1. Data intake, cleaning and EDA. 
+1. Data intake & cleaning. 
 2. EDA
 3. Data Modeling Trainning and Testing
-4. Data predictions/app output
-<br>
+4. ~Data predictions/app output~ 
+* An app of this prediction tool is still under development as of this writing 23 December, 2021.
+
 ### Data
-The single CSV containing 68 months of raw flight data. 
+Due to virtual hosting resource limitations. The dataset used on the repo will be a randomized sampling of the original _all flights_ file. 
+To proceed and reproduce results. 
+
+**Please use the `sampled_all_flights.csv` file** to proceed through the notebooks. 
+
+
+### Presentation
+A slide deck showing the results of this research is located here. A collection of un-anotated charts and figures are located here as well. 
 
 ---
-## Project Milestones
-1. Initial data acquisition
-    1. Application to APIs
-    - [Amadeus](https://developers.amadeus.com/self-service/category/air)
-    - [Bureau of Transportaion Statistics](https://www.transtats.bts.gov/DL_SelectFields.asp?gnoyr_VQ=FGJ)
-2. Data Dictionary Document
-3. Join of of all tables in dataset and cleaning.
-4. Exploratory of the final frame.
-    - Should the model be interpretable? 
-    - What specific metrics will be used at each level of modeling?
-    - Should this be a time series analysis or a feature?
-    - Should WX be a feature in the analysis?
-    - Consider *scaling* to dollar per mile.
-5. Level 1 classification; Delay probability. 
-6. Level 2 regression; determining how long a delay will be and applying a cost per minute figure to data
+
 ---
 ## Data
 
@@ -41,7 +35,8 @@ This section has two parts, the description and the dictionary.
 Having obtained 65 complete months of daily flights in the North American air system, I compiled the baseline table by joining all 65 data tables together for more that _blank!!!!!!!!!!!!!!!!!_ million rows of labeled data.
 
 ### Data Dictionary
-Below is a table of each column in the dataset. 
+Below is a table of each column in the dataset.
+
 | No.  | **Column** | **Description**  | **Units**  | **Type**  |
 |:---:|:---|:---|:---:|:---:|
 | 1  | _YEAR_   | The Year of the flight YYYY format  | _integer_  | categorical |
@@ -64,17 +59,17 @@ Below is a table of each column in the dataset.
 | 18  | _ARR_DELAY_  | Total time in minutes measured as difference between CRS_ARR_TIME and ARR_TIME  | _integer_  | discrete  |
 | 19  | _CANCELLED_  |  Binary designator if the flight was canceled | _binary int_  | categorical  |
 | 20  | _CANCELLATION_CODE_  | Description that with Cancellation _reason_ represented by letter code A - G  | _string_  | categorical  |
-| 21  | ArrDelay  |   |   |   |
-| 22  | ArrDelayMinutes  |   |   |   |
-| 23  | Cancelled  |   |   |   |
-| 24  | CancellationCode  |   |   |   |
-| 25  | Diverted  |   |   |   |
-| 26  | CRSElapsedTime  |   |   |   |
-| 27  | Flights  |   |   |   |
-| 28  | Distance  |   |   |   |
-| 29  | CarrierDelay  |   |   |   |
-| 30  | WeatherDelay  |   |   |   |
-| 31  | NASDelay  |   |   |   |
-| 32  | SecurityDelay  |   |   |   |
-| 33  | LateAircraftDelay  |   |   |   |
+| 21  | _Arr_Delay_  | Measures the number of minutes delayed. This is a focus metric that is used for the entire project. |    _integer_ | discrete  |
+| 22  | _ArrDelayMinutes_  | Measures the number  |   |   |
+| 23  | _Cancelled_  |   |   |   |
+| 24  | _CancellationCode_  |   |   |   |
+| 25  | _Diverted_  |   |   |   |
+| 26  | _CRSElapsedTime_  |   |   |   |
+| 27  | _Flights_  |   |   |   |
+| 28  | _Distance_  |   |   |   |
+| 29  | _CarrierDelay_  |   |   |   |
+| 30  | _WeatherDelay_  |   |   |   |
+| 31  | _NASDelay_  |   |   |   |
+| 32  | _SecurityDelay_  |   |   |   |
+| 33  | _LateAircraftDelay_  |   |   |   |
 | 34  |   |   |   |   |
