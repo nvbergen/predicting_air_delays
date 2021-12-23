@@ -32,7 +32,7 @@ Starting with 35+million observations, I used a gradient descent algorithm (_XGB
 ### Conclusion
 The prototype mvp has been promising. Additional tuning of the model and testing should be completed to improve model accuracy and reduce Type One errors from the testing and training data. 
 
-The ultimate goal of this project is to have an app that is viewable and useable based on the trained model data. The model should need, as I imagine it, monthly maitenence as new delay data is release from BTS.
+The ultimate goal of this project is to have an app that is viewable and usable based on the trained model data. The model should need, as I imagine it, monthly maintenance as new delay data is release from BTS.
 
 Our mvp product is the first step to such a useful and helpful customer friendly tool. 
 
@@ -52,7 +52,7 @@ Due to virtual hosting resource limitations. The dataset used on the repository 
 
 
 ### Presentation Folder
-A slide deck showing the results of this research is located here. A collection of un-anotated charts and figures are located here as well.
+A slide deck showing the results of this research is located here. A collection of un-annotated charts and figures are located here as well.
 
 ---
 ## Summary of sources and data dictionary
