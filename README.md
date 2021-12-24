@@ -28,6 +28,7 @@ Starting with 35+million observations, I used a gradient descent algorithm (_XGB
 |**F1**| \---| 0.60 | 0.64 | 0.04| \--- |
 |**ROC AUC**| \---| 0.59 | 0.63 | 0.04 | \--- |
 
+**NOTE: the values above were obtained on the original data. Your results from this notebook may vary as your dataset is smaller in size**
 
 ### Conclusion
 The prototype mvp has been promising. Additional tuning of the model and testing should be completed to improve model accuracy and reduce Type One errors from the testing and training data. 
